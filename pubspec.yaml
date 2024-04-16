@@ -1,0 +1,27 @@
+name: Hesap_Makinesi
+description: YCŞ HOLDİNG'E AİT BİR HESAP MAKİNESİ
+publish_to: 'none'
+
+flutter:
+  uses-material-design: true
+
+version: 1.0.4+1
+
+environment:
+  sdk: '>=3.2.1 <4.0.0'
+
+dependencies:
+  math_expressions: ^2.0.1
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "icon.png"
